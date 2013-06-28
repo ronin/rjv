@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
   s.author        = 'Michał Młoźniak'
   s.email         = 'michal.mlozniak@visuality.pl'
   s.files         = `git ls-files`.split("\n")
+  s.homepage      = "https://github.com/ronin/rjv"
 
   s.require_paths = ['lib']
 end
