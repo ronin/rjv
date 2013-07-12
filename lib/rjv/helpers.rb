@@ -9,5 +9,9 @@ module Rjv
     def vars
       @_rjv_vars ||= {}
     end
+
+    def rjv_tags
+      javascript_tag("var app = app || {}; app.vars = #{vars.to_json};")
+    end
   end
 end

@@ -1,2 +1,4 @@
 /.rvmrc
+/.ruby-version
+/.ruby-gemset
 pkg/*
